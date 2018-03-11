@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link href="https://use.fontawesome.com/releases/v5.0.8/css/all.css" rel="stylesheet">
+    <link rel="stylesheet" href="app.css">
+    <title>Document</title>
+</head>
+<body>
+    <header>
+        <div class="container">
+            <div class="header-row between flex v-center">
+                <div class="left-nav">
+                    <a href="/"><i class="fab fa-google"></i></a>
+                </div>
+                <div class="right-nav">
+                    <ul>
+                        <li><a href="/cart.html"><i class="fas fa-shopping-cart"></i><small>cart(<span class="cart--total--quantity">0</span>)</small></a>
+                            <ul class="cart-box hover--top--cart--box">
+                                <!-- <li class="flex v-center row-item">
+                                    <img src="http://isurve.ge/products/images/iphone/iphone5s2.png" alt="">
+                                    <div>
+                                        <p>Louvre museum</p>
+                                        <span>1x $36.00</span>
+                                    </div>
+                                    <i class="fas fa-trash-alt"></i>
+                                </li>
+                                <li class="flex v-center row-item">
+                                    <img src="http://isurve.ge/products/images/iphone/iphone5s2.png" alt="">
+                                    <div>
+                                        <p>Louvre museum</p>
+                                        <span>1x $36.00</span>
+                                    </div>
+                                    <i class="fas fa-trash-alt"></i>
+                                </li> -->
+                                <div class="cart-action">
+                                    <p class="t-right cart">total Quantity: <span class="total--quantity">500</span></p>
+                                    <p class="t-right cart">total Price: <span class="total--price">500</span></p>
+                                    <a href="/cart.html" class="go-to-cart">go to cart</a>
+                                </div>
+                            </ul>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <section>
+        <div class="container">
+            <div class="flex cart-list-container">
+                <div class="cart-list-items cart cart--items--container">
+                    <table cellspacing="0">
+                        <thead>
+                            <tr>
+                                <th>item</th>
+                                <th>quantity</th>
+                                <th>total</th>
+                                <th>action</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr class="table--list">
+                                <td>
+                                    <div class="img-block flex v-center">
+                                        <img src="http://isurve.ge/products/images/iphone/iphone5s2.png" alt="">
+                                        <p>dwdwdw</p>
+                                    </div>
+                                </td>
+                                <td class="center">
+                                    <input type="number" min="1" max="10">
+                                </td>
+                                <td class="center">343</td>
+                                <td class="center"><i class="fas fa-trash-alt"></i></td>
+                                
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+                <div class="cart-total-items cart">
+                    <div class="right-cart-box">
+                        <h2>-Summary-</h2>
+                        <div class="inner-itesm">
+                            <ul>
+                                <li class="flex between">
+                                    <p>Total quantity</p>
+                                    <p class="cart--page--quantity">20</p>
+                                </li>
+                                <li class="flex between">
+                                    <h3>Total</h3>
+                                    <h3 class="cart--page--price">30</h3>
+                                </li>
+                            </ul>
+                            <button class="checkout btn" type="button">check out</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <script src="app.js"></script>
+</body>
+</html>
